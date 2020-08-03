@@ -1,0 +1,31 @@
+.container-1 {
+    display: grid;
+    width: 180px;
+    height: 180px;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;      
+}
+.box{
+    height: 60px;
+    width: 60px;
+    padding: auto auto;
+    background-color: cadetblue;
+    border: 2px solid #000;
+    font-size: 40px;
+    text-align: center; 
+    
+}
+#b1,#b2,#b3{
+    border-top: none;
+}
+#b1,#b4,#b7{
+    border-left: none;
+}
+#b7,#b8,#b9{
+    border-bottom: none;
+}
+#b3,#b6,#b9{
+    border-right: none;
+}
+ 
+ 
