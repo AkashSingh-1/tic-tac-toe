@@ -136,7 +136,7 @@ function getDocx(d){
     return document.querySelector(d).textContent;
 }
 
-
+//VALIDATE
 function val(b1,b2,b3){
     if(  getDocx(b1) !=""&& getDocx(b2) !=""&& getDocx(b3) !=""&&getDocx(b1) ==getDocx(b2) &&getDocx(b2) ==getDocx(b3)){ 
           return true;    
